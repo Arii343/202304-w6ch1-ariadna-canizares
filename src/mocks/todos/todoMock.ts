@@ -1,24 +1,24 @@
 export const todoMock = {
   id: 4,
-  title: "play dota",
-  isComplete: false,
+  name: "play dota",
+  isDone: false,
 };
 
 export const todosMock = [
   {
     id: 1,
-    title: "play Valorant",
-    isComplete: true,
+    name: "play Valorant",
+    isDone: true,
   },
   {
     id: 2,
-    title: "play LOL",
-    isComplete: false,
+    name: "play LOL",
+    isDone: false,
   },
   {
     id: 3,
-    title: "play wow",
-    isComplete: true,
+    name: "play wow",
+    isDone: true,
   },
 ];
 
@@ -27,36 +27,36 @@ export const deleteTodoId = 1;
 export const todosDeletedMock = [
   {
     id: 2,
-    title: "play LOL",
-    isComplete: false,
+    name: "play LOL",
+    isDone: false,
   },
   {
     id: 3,
-    title: "play wow",
-    isComplete: true,
+    name: "play wow",
+    isDone: true,
   },
 ];
 
 export const updateTodoMock = {
   id: 1,
-  title: "read a book",
-  isComplete: true,
+  name: "read a book",
+  isDone: true,
 };
 
 export const todoUpdatedMock = [
   {
     id: 1,
-    title: "read a book",
-    isComplete: true,
+    name: "read a book",
+    isDone: true,
   },
   {
     id: 2,
-    title: "play LOL",
-    isComplete: false,
+    name: "play LOL",
+    isDone: false,
   },
   {
     id: 3,
-    title: "play wow",
-    isComplete: true,
+    name: "play wow",
+    isDone: true,
   },
 ];

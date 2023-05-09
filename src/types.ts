@@ -1,5 +1,5 @@
 export interface TodoStructure {
   id: number;
-  title: string;
-  isComplete: boolean;
+  name: string;
+  isDone: boolean;
 }
