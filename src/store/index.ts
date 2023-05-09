@@ -5,7 +5,7 @@ import { todosReducer } from "./todos/todosSlice";
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 
 const rootReducer = combineReducers({
-  todosReducer,
+  todos: todosReducer,
 });
 
 export const setupStore = (preloadedState?: PreloadedState<RootState>) => {
