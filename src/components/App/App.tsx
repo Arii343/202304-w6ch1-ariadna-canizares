@@ -1,7 +1,7 @@
-import Header from "../Header/Header";
+import HeaderContainer from "../Header/HeaderContainer";
 
 const App = (): JSX.Element => {
-  return <Header />;
+  return <HeaderContainer />;
 };
 
 export default App;
