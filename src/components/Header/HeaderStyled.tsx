@@ -13,6 +13,7 @@ const HeaderStyled = styled.header`
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
+    color: white;
   }
 
   .header__main {
@@ -37,6 +38,7 @@ const HeaderStyled = styled.header`
     border-radius: 5px;
     padding: 5px;
     width: 65px;
+    text-transform: uppercase;
     background-color: white;
   }
 `;
