@@ -4,10 +4,15 @@ const TodoStyled = styled.section`
   display: flex;
   align-items: start;
   padding: 20px;
-  background-color: rgb(229 223 223);
+  background-color: rgb(229, 223, 223);
   justify-content: space-between;
-  max-width: 700px;
+  max-width: 1024px;
   border-radius: 10px;
+  width: 100%;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
 
   .todo__text {
     margin: 0px;
@@ -29,6 +34,13 @@ const TodoStyled = styled.section`
     height: 30px;
     border-radius: 5px;
     padding: 5px;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
   }
 `;
 export default TodoStyled;

@@ -27,7 +27,7 @@ const HeaderStyled = styled.header`
   .header__input {
     border: 1px solid black;
     border-radius: 5px;
-    padding: 5px;
+    padding: 15px;
     font-size: 16px;
     width: 100%;
     max-width: 400px;
@@ -36,7 +36,7 @@ const HeaderStyled = styled.header`
   .header__add-button {
     border: 1px solid black;
     border-radius: 5px;
-    padding: 5px;
+    padding: 15px;
     width: 65px;
     text-transform: uppercase;
     background-color: white;
