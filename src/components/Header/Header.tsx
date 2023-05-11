@@ -17,6 +17,7 @@ const Header = ({ onClick }: HeaderProps): JSX.Element => {
 
   const handleAddButtonClick = () => {
     onClick(todoInput);
+    setTodoInput("");
   };
 
   return (
